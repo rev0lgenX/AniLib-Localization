@@ -400,23 +400,7 @@
     <string name="normal_mode">"Modo Normal"</string>
     <string name="card_mode">"Modo de Cartão"</string>
     <string name="preferred_application_language">"Selecione o idioma preferido do aplicativo"</string>
-    <string name="list">"Lista"</string>
-    <string name="patreon">"Patreon"</string>
-    <string name="bmc_title">"Me compre um café"</string>
-    <string name="patreon_page">"Página do Patreon"</string>
-    <string name="patreon_page_sub">"Visitar página do Patreon"</string>
     <string name="support_the_app">"Apoie-me no Patreon"</string>
-    <string name="support_the_app_bmc">"Apoie-me no BMC"</string>
-    <string name="bmc_page">"Página BuyMeACoffee"</string>
-    <string name="bmc_page_sub">"Visite Buy Me A Coffee."</string>
     <string name="help_this_app">"Contribua para o AniLib para me ajudar a criar e manter recursos incríveis."</string>
-    <string name="help_this_app_bmc">"Me ajude a obter um pouco do poder da cafeína. Sua única xícara de café pode trazer algum poder latente.⚡⚡⚡"</string>
     <string name="support">"Apoiar"</string>
-    <string name="contribute">"Contribuir"</string>
-    <string name="View">"Ver"</string>
-    <string name="include_tags">"Incluir Tags"</string>
-    <string name="include_genres">"Incluir Gêneros"</string>
-    <string name="exclude_genres">"Excluir Gêneros"</string>
-    <string name="exclude_tags">"Excluir Tags"</string>
-    <string name="_default">"Padrão"</string>
 </resources>
