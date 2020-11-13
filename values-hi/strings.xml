@@ -399,7 +399,4 @@
     <string name="normal_mode">"सामान्य मोड"</string>
     <string name="card_mode">"कार्ड मोड"</string>
     <string name="preferred_application_language">"पसंदीदा एप्लिकेशन का भाषा चयन करें"</string>
-    <string name="support_the_app">"पैट्रियन पर मेरा समर्थन करें"</string>
-    <string name="help_this_app">"AniLib के विशेषताओं को और् बहेतर बनाने में योगदान दें"</string>
-    <string name="support">"सहयोग"</string>
 </resources>
