@@ -400,7 +400,4 @@
     <string name="normal_mode">"Modo Normal"</string>
     <string name="card_mode">"Modo de Cartão"</string>
     <string name="preferred_application_language">"Selecione o idioma preferido do aplicativo"</string>
-    <string name="support_the_app">"Apoie-me no Patreon"</string>
-    <string name="help_this_app">"Contribua para o AniLib para me ajudar a criar e manter recursos incríveis."</string>
-    <string name="support">"Apoiar"</string>
 </resources>
