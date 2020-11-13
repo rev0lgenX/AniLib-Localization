@@ -397,7 +397,4 @@
     <string name="normal_mode"></string>
     <string name="card_mode"></string>
     <string name="preferred_application_language">"Seleziona lingua preferita dellapplicazione"</string>
-    <string name="support_the_app"></string>
-    <string name="help_this_app"></string>
-    <string name="support"></string>
 </resources>
