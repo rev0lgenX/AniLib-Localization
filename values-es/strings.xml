@@ -405,7 +405,4 @@
     <string name="normal_mode">"Modo normal"</string>
     <string name="card_mode">"Modo Tarjeta"</string>
     <string name="preferred_application_language"></string>
-    <string name="support_the_app">"Soportame en Patreon"</string>
-    <string name="help_this_app">"Comtribuye a AniLib para ayudarme a crear y mantener las incredibles caracteristicas"</string>
-    <string name="support">"Soporte"</string>
 </resources>
