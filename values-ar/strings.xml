@@ -397,23 +397,7 @@
     <string name="normal_mode">"شكل أعتيادي"</string>
     <string name="card_mode">"شكل بطاقات"</string>
     <string name="preferred_application_language">"أختر لغة التطبيق"</string>
-    <string name="list">"قائمة"</string>
-    <string name="patreon">"Patreon"</string>
-    <string name="bmc_title">"Buy Me A Coffee"</string>
-    <string name="patreon_page">"Patreon Page"</string>
-    <string name="patreon_page_sub">"Visit Patreon Page."</string>
     <string name="support_the_app">"Support Me On Patreon"</string>
-    <string name="support_the_app_bmc">"Support Me On BMC"</string>
-    <string name="bmc_page">"BuyMeACoffee Page"</string>
-    <string name="bmc_page_sub">"Visit Buy Me A Coffee."</string>
     <string name="help_this_app">"ساهم في AniLib لمساعدتي في إنشاء ميزات رائعة والحفاظ عليها."</string>
-    <string name="help_this_app_bmc">"ساعدني في الحصول على بعض قوة الكافيين. فنجان واحد من قهوتك يمكن أن يُخرج بعض القوة الكامنة. ⚡⚡⚡"</string>
     <string name="support">"الدعم"</string>
-    <string name="contribute">"مساهمة"</string>
-    <string name="View">"عرض"</string>
-    <string name="include_tags">"تضمين وسم"</string>
-    <string name="include_genres">"تضمين صنف"</string>
-    <string name="exclude_genres">"التراجع عن تضمين الصنف"</string>
-    <string name="exclude_tags">"التراجع عن تضمين الوسم"</string>
-    <string name="_default">"الافتراضي"</string>
 </resources>
