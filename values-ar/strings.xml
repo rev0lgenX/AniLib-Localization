@@ -397,7 +397,4 @@
     <string name="normal_mode">"شكل أعتيادي"</string>
     <string name="card_mode">"شكل بطاقات"</string>
     <string name="preferred_application_language">"أختر لغة التطبيق"</string>
-    <string name="support_the_app">"Support Me On Patreon"</string>
-    <string name="help_this_app">"ساهم في AniLib لمساعدتي في إنشاء ميزات رائعة والحفاظ عليها."</string>
-    <string name="support">"الدعم"</string>
 </resources>
