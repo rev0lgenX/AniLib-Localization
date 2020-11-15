@@ -1,4 +1,4 @@
-name: AniLib translation artifact
+name: AniLib discord test
 on: 
   workflow_dispatch:
     inputs:
