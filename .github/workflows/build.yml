@@ -1,4 +1,4 @@
-name: AniLib build artifact
+name: AniLib translation artifact
 on: 
   workflow_dispatch:
     inputs:
