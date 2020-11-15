@@ -86,7 +86,7 @@ jobs:
             description: Automated AniLib Translation Notification.
             details: |
 
-              Translated AniLib Test file ready for install. Please follow the link to download apk file under assets.
+              Translated AniLib test file ready for install. Please follow the link and download apk file under Assets.
     
               ${{ steps.create_release.outputs.html_url }}
               
