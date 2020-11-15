@@ -1,0 +1,84 @@
+name: AniLib build artifact
+on: 
+  workflow_dispatch:
+    inputs:
+      git-ref:
+        description: Git Ref (Optional)
+        required: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v2
+        with:
+          repository: 'rev0lgenX/AniLib'
+          fetch-depth: 0
+        if: github.event.inputs.git-ref == ''
+      - name: Clone Repository (Custom Ref)
+        uses: actions/checkout@v2
+        if: github.event.inputs.git-ref != ''
+        with:
+          repository: 'rev0lgenX/AniLib'
+          fetch-depth: 0
+          ref: ${{ github.event.inputs.git-ref }} 
+
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+
+    
+      - name: Create gradle property file
+        env:
+          ANILIST_SECRET: ${{ secrets.ANILIST_SECRET }}
+        run:          
+          echo "$ANILIST_SECRET" | base64 -d > ./secret.properties
+      
+      - name: Set up keystore
+        run: mkdir -p ~/.android/ && echo "${{ secrets.DEBUG_KEYSTORE }}" | base64 --decode > ~/.android/debug.keystore
+
+      - name: Build APK
+        uses: eskatos/gradle-command-action@v1
+        with:
+          arguments: assembleBaseStaging
+          wrapper-cache-enabled: true
+          dependencies-cache-enabled: true
+          configuration-cache-enabled: true
+
+      - name: Set CURRENT_SHA
+        run: echo "::set-env name=CURRENT_SHA::$(git rev-parse --short HEAD)"
+
+      - name: Create GitHub release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: L-${{ env.CURRENT_SHA }}
+          release_name: AniLib L-${{ env.CURRENT_SHA }}
+          body: >
+            L-${{ env.CURRENT_SHA }}
+            Latest commit: https://github.com/rev0lgenX/AniLib/commit/${{ env.CURRENT_SHA }}
+          draft: ${{ github.event.inputs.dry-run != '' }}
+          prerelease: false
+
+      - name: Upload APK to release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: app/build/outputs/apk/base/staging/*.apk
+          asset_name: AniLib-L-${{ env.COMMIT_COUNT }}.apk
+          asset_content_type: application/vnd.android.package-archive
+
+      
+      - name: Upload apk
+        uses: actions/upload-artifact@v2.2.0
+        with:
+            name: AniLib-${{env.CURRENT_SHA}}
+            path: app/build/outputs/apk/debug/*.apk
+            
