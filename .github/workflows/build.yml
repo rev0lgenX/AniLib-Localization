@@ -88,7 +88,7 @@ jobs:
 
               Translated AniLib Test file ready for install. Please follow the link to download apk file under assets.
     
-              ${{ steps.create_release.outputs.upload_url }}
+              ${{ steps.create_release.outputs.html_url }}
               
               Thank You all for support and contribution!!!.
             footer: Localization.
