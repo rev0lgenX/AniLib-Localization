@@ -16,6 +16,6 @@ jobs:
         with:
             severity: info
             description: Automated AniLib translation notification.
-            details: Generated Translation Test App. Visit the link to download and view the translation.
+            details: Generated Translation Test App.${{ secrets.DISCORD_WEBHOOK }} Visit the link to download and view the translation.
             footer: This is a footer.
             webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
