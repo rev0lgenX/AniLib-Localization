@@ -78,3 +78,16 @@ jobs:
           asset_path: app/build/outputs/apk/base/debug/app-base-debug.apk
           asset_name: AniLib-L-${{ env.CURRENT_SHA }}.apk
           asset_content_type: application/vnd.android.package-archive
+
+      - name: Discord Notification
+        uses: rjstone/discord-webhook-notify@v1
+        with:
+            severity: info
+            description: Automated AniLib Translation Notification.
+            details: |
+              Translated AniLib Test file ready for install. Please follow the link to download apk file under assets.
+              {{ steps.create_release.outputs.upload_url }}
+              
+              Thank You all for support and contribution!!!.
+            footer: Localization.
+            webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
