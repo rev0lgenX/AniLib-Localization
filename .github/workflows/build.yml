@@ -51,7 +51,10 @@ jobs:
           configuration-cache-enabled: true
 
       - name: Set CURRENT_SHA
-        run: echo "::set-env name=CURRENT_SHA::$(git rev-parse --short HEAD)"
+        run: |
+          set -x
+          echo "COMMIT_COUNT=$(git rev-list --count HEAD)" >> $GITHUB_ENV
+          echo "CURRENT_SHA=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
       - name: Create GitHub release
         id: create_release
@@ -59,10 +62,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: L-${{ env.CURRENT_SHA }}
-          release_name: AniLib L-${{ env.CURRENT_SHA }}
+          tag_name: L-${{ env.COMMIT_COUNT }}
+          release_name: AniLib L-${{ env.COMMIT_COUNT }}
           body: >
-            L-${{ env.CURRENT_SHA }}
+            L-${{ env.COMMIT_COUNT }}
             Latest commit: https://github.com/rev0lgenX/AniLib/commit/${{ env.CURRENT_SHA }}
           draft: ${{ github.event.inputs.dry-run != '' }}
           prerelease: false
