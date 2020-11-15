@@ -200,7 +200,6 @@
     <string name="privacy_policy">"Informativa sulla Privacy."</string>
     <string name="privacy_policy_desc">"Vedi informativa sulla provacy completa."</string>
     <string name="whats_new">"Cosa c'è di nuovo?"</string>
-    <string name="studio_version"></string>
     <string name="terms_and_condition">"Condizioni e Termini"</string>
     <string name="terms_and_condition_desc">"Vedi Condizioni e Termini"</string>
     <string name="in_progress">"Lavori in Corso."</string>
@@ -380,21 +379,5 @@
     <string name="application">"Applicazione"</string>
     <string name="change_display_mode">"Cambia modalità di visualizzazione"</string>
     <string name="startdate_format">"%1$s ~ %2$s"</string>
-    <string name="new_update_available"></string>
-    <string name="new_update_description"></string>
-    <string name="check_for_update"></string>
-    <string name="no_thanks"></string>
-    <string name="no_update_available"></string>
-    <string name="no_update_description"></string>
-    <string name="checking_for_update"></string>
-    <string name="checking_for_update_failed"></string>
-    <string name="discord"></string>
-    <string name="github_desc"></string>
-    <string name="start_nav_page_desc"></string>
-    <string name="startup_page"></string>
-    <string name="update_"></string>
-    <string name="compact_mode"></string>
-    <string name="normal_mode"></string>
-    <string name="card_mode"></string>
     <string name="preferred_application_language">"Seleziona lingua preferita dellapplicazione"</string>
 </resources>
