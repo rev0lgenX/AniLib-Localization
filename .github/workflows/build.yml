@@ -53,7 +53,6 @@ jobs:
       - name: Set CURRENT_SHA
         run: |
           set -x
-          echo "COMMIT_COUNT=$(git rev-list --count HEAD)" >> $GITHUB_ENV
           echo "CURRENT_SHA=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
       - name: Create GitHub release
@@ -62,10 +61,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: L-${{ env.COMMIT_COUNT }}
-          release_name: AniLib L-${{ env.COMMIT_COUNT }}
+          tag_name: L-${{ env.CURRENT_SHA }}
+          release_name: AniLib L-${{ env.CURRENT_SHA }}
           body: >
-            L-${{ env.COMMIT_COUNT }}
+            L-${{ env.CURRENT_SHA }}
             Latest commit: https://github.com/rev0lgenX/AniLib/commit/${{ env.CURRENT_SHA }}
           draft: ${{ github.event.inputs.dry-run != '' }}
           prerelease: false
@@ -77,5 +76,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: app/build/outputs/apk/base/debug/app-base-debug.apk
-          asset_name: AniLib-L-${{ env.COMMIT_COUNT }}.apk
+          asset_name: AniLib-L-${{ env.CURRENT_SHA }}.apk
           asset_content_type: application/vnd.android.package-archive
