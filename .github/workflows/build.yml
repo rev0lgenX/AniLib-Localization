@@ -82,5 +82,5 @@ jobs:
         uses: actions/upload-artifact@v2.2.0
         with:
             name: AniLib-${{env.CURRENT_SHA}}
-            path: app/build/outputs/apk/debug/*.apk
+            path: app/build/outputs/apk/base/debug/app-base-debug.apk
             
