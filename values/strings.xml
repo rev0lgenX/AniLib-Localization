@@ -1,0 +1,414 @@
+<resources>
+    <string name="app_name" translatable="false">AniLib</string>
+    <string name="app_subtitle">By the power of AniList</string>
+    <string name="app_description">Your to be favourite place to manage, track, browse your Anime and Manga and much more.</string>
+    <string name="anilib_site">AniLib Site</string>
+    <string name="visit_site_desc">Visit AniLib to know more.</string>
+    <string name="discover">Discover</string>
+    <string name="season">Season</string>
+    <string name="dynamically_apply_theme">Dynamically apply theme.</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="its_empty">Feeling empty</string>
+    <string name="close">Close</string>
+    <string name="ep_d_s">Ep: %1$s · D: %2$s min</string>
+    <string name="chap_s">Chap: %1$s · Vol: %2$s</string>
+    <string name="manga">Manga</string>
+    <string name="please_log_in">Please log in.</string>
+    <string name="settings">Settings</string>
+    <string name="account">Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="nav_close" translatable="false">Nav Close</string>
+    <string name="nav_open" translatable="false">Nav Open</string>
+    <string name="dynamic_theme">Dynamic Theme</string>
+    <string name="notification">Notification</string>
+    <string name="notification_setting_sub">Control what you see in notification.(Login required)</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="feed">Feed</string>
+    <string name="activity">Activity</string>
+    <string name="authenticating">Authenticating</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="filter">Filter</string>
+    <string name="users">Users</string>
+    <string name="user_detail_fetch_failed">Failed to fetch user detail.</string>
+    <string name="save">Save</string>
+    <string name="status">Status</string>
+    <string name="score">Score</string>
+    <string name="invalid_input_type">Invalid input type.</string>
+
+    <!--media list status-->
+    <string name="current">Current</string>
+    <string name="watching">Watching</string>
+    <string name="planning">Planning</string>
+    <string name="completed">Completed</string>
+    <string name="dropped">Dropped</string>
+    <string name="paused">Paused</string>
+    <string name="rewatching">Rewatching</string>
+
+    <string name="episode_progress">Episode Progress</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">Finish Date</string>
+    <string name="total_rewatch">Total Rewatches</string>
+    <string name="private_">Private</string>
+    <string name="notes">Notes</string>
+    <string name="failed_to_save">Failed to save.</string>
+    <string name="failed_to_toggle">Failed to toggle.</string>
+    <string name="failed_to_delete">Failed to remove.</string>
+    <string name="please_wait">Please wait.</string>
+    <string name="volume_progress">Volume Progress</string>
+    <string name="manga_progress">Manga Progress</string>
+    <string name="make_private">Make Private</string>
+    <string name="overview">Overview</string>
+    <string name="character">Character</string>
+    <string name="stats">Stats</string>
+    <string name="staff">Staff</string>
+    <string name="review">Review</string>
+    <string name="watch">Watch</string>
+    <string name="open_list_editor">Open list editor</string>
+    <string name="delete">Delete</string>
+    <string name="toggle_fav">Toggle Favourite</string>
+    <string name="operation_failed">Operation failed.</string>
+    <string name="type">Type</string>
+    <string name="source">Source</string>
+    <string name="episodes">Episodes</string>
+    <string name="duration">Duration</string>
+    <string name="format">Format</string>
+    <string name="min_s">%1$s min</string>
+    <string name="chapters">Chapters</string>
+    <string name="volumes">Volume</string>
+    <string name="start_s_end_s">Start: %1$s &#160; · &#160; End: %2$s</string>
+    <string name="japanese_title">Japanese</string>
+    <string name="english_title">English</string>
+    <string name="romaji_title">Romaji</string>
+    <string name="description">Description</string>
+    <string name="episode_format_s">E: %1$s · %2$s</string>
+    <string name="too_many_request">Too many request</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="chapter_format_s">C: %1$s · %2$s</string>
+    <string name="source_seasonyear_s">%1$s · %2$s</string>
+    <string name="format_status_s">%1$s · %2$s</string>
+    <string name="relations">Relations</string>
+    <string name="genre">Genre</string>
+    <string name="tags">Tags</string>
+    <string name="studios">Studios</string>
+    <string name="producers">Producers</string>
+    <string name="hashtag">Hashtag</string>
+    <string name="average_score">Average Score</string>
+    <string name="popularity">Popularity</string>
+    <string name="favourites">Favourites</string>
+    <string name="day">Days</string>
+    <string name="hour">Hour</string>
+    <string name="min">Min</string>
+    <string name="sec">Sec</string>
+    <string name="ep_s">Ep %1$d</string>
+    <string name="no_app_found_to_open">No app found to handle url</string>
+    <string name="recent_act_per_day">Recent Activity Per Day</string>
+    <string name="rankings">Rankings</string>
+    <string name="status_distribution">Status Distribution</string>
+    <string name="score_distribution">Score Distribution</string>
+    <string name="native_name">Native Name</string>
+    <string name="alternative_name">Alternative Name</string>
+    <string name="about">About</string>
+    <string name="share">Share</string>
+    <string name="invalid">Invalid</string>
+    <string name="media">Media</string>
+    <string name="voice_role">Voice Roles</string>
+    <string name="staff_role">Staff Roles</string>
+    <string name="media_format_year_s">%1$s · %2$s</string>
+    <string name="language">Language</string>
+    <string name="studio">Studio</string>
+    <string name="apply_filter">Apply Filter</string>
+    <string name="search">Search</string>
+    <string name="sort">Sort</string>
+    <string name="streaming_on">Streaming On</string>
+    <string name="country">Country</string>
+    <string name="year">Year</string>
+    <string name="year_disabled">Year (Disabled)</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="name">Name</string>
+    <string name="unselect_all">Unselect All</string>
+    <string name="suggestion">Suggestion</string>
+    <string name="recommendation_filter">Recommendation Filter</string>
+    <string name="s_slash_s">%1$s/%2$s</string>
+    <string name="s_slash_s_brackets">%1$s/%2$s (%3$s)</string>
+    <string name="anime_list">Anime List</string>
+    <string name="manga_list">Manga List</string>
+    <string name="none">None</string>
+    <string name="repeating">Repeating</string>
+    <string name="spoiler_alert">Spoiler Alert</string>
+    <string name="error">Failed to load</string>
+    <string name="follower">Follower</string>
+    <string name="following">Following</string>
+    <string name="blocked">Blocked</string>
+    <string name="s_following">%1$sFollowing</string>
+    <string name="s_followers">%1$sFollowers</string>
+    <string name="total_anime">Total Anime</string>
+    <string name="days_watched">Days Watched</string>
+    <string name="mean_score">Mean Score</string>
+    <string name="total_manga">Total Manga</string>
+    <string name="chapters_read">Chapters Read</string>
+    <string name="saved_to_gallary">Saved to gallary</string>
+    <string name="anime">Anime</string>
+    <string name="gif">Gif</string>
+    <string name="anime_stats">Anime Stats</string>
+    <string name="manga_stats">Manga Stats</string>
+    <string name="voice_actors">Voice Actors</string>
+    <string name="episodes_watched">Episodes Watched</string>
+    <string name="days_planned">Days Planned</string>
+    <string name="standard_deviation">Standard Deviation</string>
+    <string name="volumes_read">Volumes Read</string>
+    <string name="format_distribution">Format Distribution</string>
+    <string name="country_distribution">Country Distribution</string>
+    <string name="release_year">Release Year</string>
+    <string name="watch_year">Watch Year</string>
+    <string name="read_year">Read Year</string>
+    <string name="count">Count</string>
+    <string name="time_watched">Time Watched</string>
+    <string name="s_day_s_hour">%1$d d %2$d h</string>
+    <string name="links">Links</string>
+    <string name="info">Info</string>
+    <string name="add">Add</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="stop_following_s">Stop following %1$s?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="follow">Follow</string>
+    <string name="episode_airing_notif">%1$s %2$s %3$s %4$s %5$s</string>
+    <string name="thread_notif_s">%1$s %2$s %3$s</string>
+    <string name="s_space_s">%1$s %2$s</string>
+    <string name="new_notification">New notification available</string>
+    <string name="airing_schedules">Airing Schedules</string>
+    <string name="airing_time_e_s_s">E: %1$s · %2$dd %3$dh %4$dm %5$ds </string>
+    <string name="format_episode_s">%1$s · E: %2$s</string>
+    <string name="select_date">Select Date</string>
+    <string name="airing">Airing</string>
+    <string name="trending">Trending</string>
+    <string name="popular">Popular</string>
+    <string name="newly_added">Newly Added</string>
+    <string name="review_composer">Review Composer</string>
+    <string name="write_review">Write review (Min:2200)</string>
+    <string name="summary">Summary</string>
+    <string name="review_summary">Review Summary (Min:20, Max:120)</string>
+    <string name="save_review">Save Review</string>
+    <string name="check_character_length">Check Character Length</string>
+    <string name="review_score_format">Score: %1$s/100</string>
+    <string name="review_by">Review by %1$s</string>
+    <string name="s_out_of_s_liked_this_review">%1$s out of %2$s liked this review</string>
+    <string name="review_of_s_by_s">Review of %1$s by %2$s</string>
+    <string name="recent_reviews">Recent Reviews</string>
+    <string name="reviews">Reviews</string>
+    <string name="press_again_to_exit">Press again to exit</string>
+
+    <string name="privacy_policy">Privacy Policy.</string>
+    <string name="privacy_policy_desc">View complete privacy policy.</string>
+    <string name="whats_new">What\'s new</string>
+    <string name="studio_version">Studio Version</string>
+    <string name="terms_and_condition">Terms and Condition</string>
+    <string name="terms_and_condition_desc">View Terms and Condition</string>
+    <string name="in_progress">Working on it.</string>
+
+    <!--crash report-->
+    <string name="crash_reporting">Crash Reporting</string>
+    <string name="crash_report_desc">Help improve AniLib\'s features. Automatically sends crash reports.</string>
+
+    <!--notification-->
+    <string name="notification_setting">Notification Setting</string>
+    <string name="refresh_interval">Refresh Interval</string>
+    <string name="notifications">Notifications</string>
+    <string name="check_which_notif_to_show">Notify me when.</string>
+    <string name="when_someone_follows_me">When someone follows me</string>
+    <string name="receive_message_notif">When i receive a message</string>
+    <string name="mention_replay_notif">When I am @ mentioned in an activity or activity reply</string>
+    <string name="activity_like_notif">When someone likes my activity</string>
+    <string name="likes_activity_reply_notif">When someone likes my activity reply</string>
+    <string name="forum_reply_notif">When someone replies to my forum comment</string>
+    <string name="forum_mention_notif">When I am @ mentioned in a forum comment</string>
+    <string name="forum_coment_liked_notif">When someone likes my forum comment</string>
+    <string name="reply_to_subscribed_forum_notif">When someone replies to a forum thread I\'m subscribed to</string>
+    <string name="forum_liked_notif">When someone likes my forum thread</string>
+    <string name="episode_aired_notif">When episode on my list airs</string>
+    <string name="related_media_added_notif">When related media is added to AniList</string>
+    <string name="media_title">Media Title</string>
+    <string name="notification_interval_desc">Checks if there is any notification after specified time interval.</string>
+    <string name="preferred_media_title">Select preferred media title</string>
+    <string name="cover_image_quality">Cover Image Quality</string>
+    <string name="preferred_image_quality_desc">Select your preferred image quality</string>
+    <string name="advanced_scores">Advanced Scores</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="change_log">Change log</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="order">Order</string>
+    <string name="home_order_drag_message">Drag icon to change order</string>
+    <string name="reading">Reading</string>
+    <string name="custom_filters">Customize Filters</string>
+    <string name="custom_filter_desc">Customize tags, genre and others</string>
+
+    <string name="fifteen_min">15 min</string>
+    <string name="twenty_min">20 min</string>
+    <string name="twenty_five_min">25 min</string>
+    <string name="thirty_min">30 min</string>
+
+    <!--media title-->
+    <string name="romaji">Romaji</string>
+    <string name="english">English</string>
+    <string name="user_preferred">User Preferred</string>
+    <string name="_native">Native</string>
+
+    <!--image quality-->
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+
+    <string name="title">Title</string>
+    <string name="title_desc">Title Desc</string>
+    <string name="score_desc">Score Desc</string>
+    <string name="progress">Progress</string>
+    <string name="progress_desc">Progress Desc</string>
+    <string name="last_updated">Last Updated</string>
+    <string name="last_updated_desc">Last Updated Desc</string>
+    <string name="last_added">Last Added</string>
+    <string name="last_added_desc">Last Added Desc</string>
+    <string name="start_date_desc">Start Date Desc</string>
+    <string name="completed_date">Completed Date</string>
+    <string name="completed_date_desc">Completed Date Desc</string>
+    <string name="release_date">Release Date</string>
+    <string name="release_date_desc">Release Date Desc</string>
+    <string name="average_score_desc">Average Score Desc</string>
+    <string name="popularity_desc">Popularity Desc</string>
+
+    <!--media_format-->
+    <string name="tv">Tv</string>
+    <string name="tv_short">Tv Short</string>
+    <string name="movie">Movie</string>
+    <string name="special">Special</string>
+    <string name="ova">Ova</string>
+    <string name="ona">Ona</string>
+    <string name="one_shot">One Shot</string>
+    <string name="novel">Novel</string>
+    <string name="music">Music</string>
+    <string name="unknown">Unknown</string>
+
+    <!--media_source-->
+    <string name="original">Original</string>
+    <string name="light_novel">Light Novel</string>
+    <string name="visual_novel">Visual Novel</string>
+    <string name="video_game">Video Game</string>
+    <string name="other">Other</string>
+    <string name="doujinshi">Doujinshi</string>
+
+    <!--media_relation-->
+    <string name="contains">Contains</string>
+    <string name="compilation">Compilation</string>
+    <string name="spin_off">Spin off</string>
+    <string name="alternative">Alternative</string>
+    <string name="side_story">Side Story</string>
+    <string name="parent">Parent</string>
+    <string name="sequel">Sequel</string>
+    <string name="prequel">Prequel</string>
+    <string name="adaptation">Adaptation</string>
+
+    <!--character_role-->
+    <string name="background">Background</string>
+    <string name="supporting">Supporting</string>
+    <string name="main">Main</string>
+
+    <!--languages-->
+    <string name="Japanese">Japanese</string>
+    <string name="English">English</string>
+    <string name="Korean">Korean</string>
+    <string name="Italian">Italian</string>
+    <string name="Spanish">Spanish</string>
+    <string name="Portuguese">Portuguese</string>
+    <string name="French">French</string>
+    <string name="German">German</string>
+    <string name="Hebrew">Hebrew</string>
+    <string name="Hungarian">Hungarian</string>
+
+    <!--media_status-->
+    <string name="cancelled">Cancelled</string>
+    <string name="not_yet_released">Not yet released</string>
+    <string name="releasing">Releasing</string>
+    <string name="finished">Finished</string>
+
+    <!--media_season-->
+    <string name="all">All</string>
+    <string name="winter">Winter</string>
+    <string name="spring">Spring</string>
+    <string name="summer">Summer</string>
+    <string name="fall">Fall</string>
+
+
+    <!--advance_search_sort-->
+    <string name="id">Id</string>
+    <string name="id_desc">Id Desc</string>
+    <string name="title_romaji">Title Romaji</string>
+    <string name="title_romaji_desc">Title Romaji Desc</string>
+    <string name="title_english">Title English</string>
+    <string name="title_english_desc">Title English Desc</string>
+    <string name="title_native">Title Native</string>
+    <string name="title_native_desc">Title Native Desc</string>
+    <string name="type_desc">Type Desc</string>
+    <string name="format_desc">Format Desc</string>
+    <string name="end_date_desc">End Date Desc</string>
+    <string name="trending_desc">Trending Desc</string>
+    <string name="episodes_desc">Episodes Desc</string>
+    <string name="duration_desc">Duration Desc</string>
+    <string name="status_desc">Status Desc</string>
+    <string name="chapters_desc">Chapters Desc</string>
+    <string name="volumes_desc">Volumes Desc</string>
+    <string name="updated_at">Updated At</string>
+    <string name="updated_at_desc">Updated At Desc</string>
+    <string name="search_match">Search Match</string>
+    <string name="favourites_desc">Favourites Desc</string>
+
+    <!--country of origin-->
+    <string name="China">China</string>
+    <string name="South_Korean">South Korean</string>
+    <string name="Japan">Japan</string>
+
+    <!--recommendation_sort-->
+    <string name="on_list">On List</string>
+    <string name="recent">Recent</string>
+    <string name="highest_rated">Highest Rated</string>
+    <string name="lowest_rated">Lowest Rated</string>
+
+
+    <!--toggle-->
+    <string name="titles_watched">Titles Watched</string>
+    <string name="hour_watched">Hour Watched</string>
+    <string name="titles_read">Titles Read</string>
+    <string name="rating">Rating</string>
+    <string name="rating_desc">Rating Desc</string>
+    <string name="created_at">Created At</string>
+    <string name="created_at_desc">Created At Desc</string>
+
+    <string name="hentai_only">Hentai</string>
+    <string name="show_adult_content">Show Adult Content</string>
+    <string name="show_adult_content_desc">Enabling it will show adult media content.</string>
+
+    <string name="application_language">Application Language</string>
+    <string name="preferred_application_language">Select preferred application language</string>
+
+    <string name="application">Application</string>
+    <string name="change_display_mode">Change display mode</string>
+    <string name="startdate_format">%1$s ~ %2$s</string>
+    <string name="new_update_available">New update available!</string>
+    <string name="new_update_description">Update to newer version of AniLib?</string>
+    <string name="check_for_update">Check for update</string>
+    <string name="no_thanks">No, Thanks</string>
+    <string name="no_update_available">No update available</string>
+    <string name="no_update_description">You have the latest version of AniLib</string>
+    <string name="checking_for_update">Checking for update</string>
+    <string name="checking_for_update_failed">Chekcing for update failed</string>
+    <string name="discord">Discord</string>
+    <string name="github_desc">View source on Github.</string>
+    <string name="start_nav_page_desc">Configure startup page.</string>
+    <string name="startup_page">Startup Page</string>
+    <string name="update_">update</string>
+    <string name="compact_mode">Compact mode</string>
+    <string name="normal_mode">Normal mode</string>
+    <string name="card_mode">Card mode</string>
+
+
+</resources>
