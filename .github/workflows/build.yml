@@ -5,6 +5,9 @@ on:
       git-ref:
         description: Git Ref (Optional)
         required: false
+      discord-notify:
+        description: Notify on discord translate channel 
+        default: false
 
 jobs:
   build:
@@ -81,6 +84,7 @@ jobs:
 
       - name: Discord Notification
         uses: rjstone/discord-webhook-notify@v1
+        if: github.event.inputs.discord-notify == 'true'
         with:
             severity: info
             description: Automated AniLib Translation Notification.
