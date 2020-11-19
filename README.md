@@ -18,6 +18,7 @@
 
 * Arabic - Sakugaky
 * Hindi - Manoj Chetry (KcMj)
+* Italian - Yoshimitsu
 * Portuguese - Satoru
 * Spanish - ricardoric_03
 
