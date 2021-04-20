@@ -11,16 +11,19 @@
 [![Italian](https://img.shields.io/poeditor/progress/383723/it?style=flat-square&token=c3d1af31e50c5f13084f923522f05a55)](https://poeditor.com/join/project?hash=d9NRHxgZSb)
 [![Protuguese](https://img.shields.io/poeditor/progress/383723/pt?style=flat-square&token=c3d1af31e50c5f13084f923522f05a55)](https://poeditor.com/join/project?hash=d9NRHxgZSb)
 [![Spanish](https://img.shields.io/poeditor/progress/383723/es?style=flat-square&token=c3d1af31e50c5f13084f923522f05a55)](https://poeditor.com/join/project?hash=d9NRHxgZSb)
-
+[![Russian](https://img.shields.io/poeditor/progress/383723/ru?style=flat-square&token=c3d1af31e50c5f13084f923522f05a55)](https://poeditor.com/join/project?hash=d9NRHxgZSb)
+[![French](https://img.shields.io/poeditor/progress/383723/fr?style=flat-square&token=c3d1af31e50c5f13084f923522f05a55)](https://poeditor.com/join/project?hash=d9NRHxgZSb)
 
 ## Translators
 ### Huge thanks for the translation and support.
 
-* Arabic - Sakugaky
+* Arabic - Sakugaky, Mimogu
 * Hindi - Manoj Chetry (KcMj)
-* Italian - Yoshimitsu
-* Portuguese - Satoru
+* Italian - Yoshimitsu, cayzon
+* Portuguese - Satoru, SamOak
 * Spanish - ricardoric_03
+* Russian - Natalie
+* French - natsuthelight
 
 
 ### Note
