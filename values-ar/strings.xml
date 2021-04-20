@@ -398,4 +398,7 @@
     <string name="preferred_application_language">"أختر لغة التطبيق"</string>
     <string name="show_adult_content">"العرض دون حجب المحتوى الجنسي"</string>
     <string name="show_adult_content_desc">"بتفعيل هذا لن يكون المحتوى الجنسي مخفيًا لديك."</string>
+    <string name="theme">"سمة"</string>
+    <string name="failed_to_load">"فشل في التحميل"</string>
+    <string name="time">"زمن"</string>
 </resources>
