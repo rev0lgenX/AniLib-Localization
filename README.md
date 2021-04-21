@@ -13,6 +13,7 @@
 [![Spanish](https://img.shields.io/poeditor/progress/383723/es?style=flat-square&token=c3d1af31e50c5f13084f923522f05a55)](https://poeditor.com/join/project?hash=d9NRHxgZSb)
 [![Russian](https://img.shields.io/poeditor/progress/383723/ru?style=flat-square&token=c3d1af31e50c5f13084f923522f05a55)](https://poeditor.com/join/project?hash=d9NRHxgZSb)
 [![French](https://img.shields.io/poeditor/progress/383723/fr?style=flat-square&token=c3d1af31e50c5f13084f923522f05a55)](https://poeditor.com/join/project?hash=d9NRHxgZSb)
+[![German](https://img.shields.io/poeditor/progress/383723/de?style=flat-square&token=c3d1af31e50c5f13084f923522f05a55)](https://poeditor.com/join/project?hash=d9NRHxgZSb)
 
 ## Translators
 ### Huge thanks for the translation and support.
@@ -24,6 +25,7 @@
 * Spanish - ricardoric_03
 * Russian - Natalie
 * French - natsuthelight
+* German - Andre
 
 
 ### Note
