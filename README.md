@@ -25,7 +25,7 @@
 * Spanish - ricardoric_03
 * Russian - Natalie
 * French - natsuthelight
-* German - Andre
+* German - André Niebuhr (Epr0m)
 
 
 ### Note
