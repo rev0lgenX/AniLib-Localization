@@ -5,9 +5,6 @@ on:
       git-ref:
         description: Git Ref (Optional)
         required: false
-      discord-notify:
-        description: Notify on discord translate channel 
-        default: false
 
 jobs:
   build:
@@ -28,10 +25,11 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.event.inputs.git-ref }} 
 
-      - name: Set up JDK 1.8
-        uses: actions/setup-java@v1
+      - name: Setup Java JDK
+        uses: actions/setup-java@v2.5.0
         with:
-          java-version: 1.8
+          distribution: 'zulu'
+          java-version: '11'
 
       - name: Install NDK
         run: sudo ${ANDROID_HOME}/tools/bin/sdkmanager --install "ndk;21.0.6113669" &> /dev/null
@@ -46,12 +44,9 @@ jobs:
         run: mkdir -p ~/.android/ && echo "${{ secrets.DEBUG_KEYSTORE }}" | base64 --decode > ~/.android/debug.keystore
 
       - name: Build APK
-        uses: eskatos/gradle-command-action@v1
+        uses: gradle/gradle-command-action@v2
         with:
-          arguments: assembleBaseDebug
-          wrapper-cache-enabled: true
-          dependencies-cache-enabled: true
-          configuration-cache-enabled: true
+          arguments: assembleStandardDebug
 
       - name: Set CURRENT_SHA
         run: |
@@ -78,22 +73,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: app/build/outputs/apk/base/debug/app-base-debug.apk
+          asset_path: app/build/outputs/apk/standard/debug/app-standard-debug.apk
           asset_name: AniLib-L-${{ env.CURRENT_SHA }}.apk
           asset_content_type: application/vnd.android.package-archive
-
-      - name: Discord Notification
-        uses: rjstone/discord-webhook-notify@v1
-        if: github.event.inputs.discord-notify == 'true'
-        with:
-            severity: info
-            description: Automated AniLib Translation Notification.
-            details: |
-
-              Translated AniLib test file ready for install. Please follow the link and download apk file under Assets.
-    
-              ${{ steps.create_release.outputs.html_url }}
-              
-              Thank You all for support and contribution!!!.
-            footer: Localization.
-            webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
